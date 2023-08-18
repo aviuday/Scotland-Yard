@@ -3,22 +3,6 @@ import os
 import sys
 import re
 
-# Comment mein
-# 
-# #concurrency lmao
-# 
-# 
-# Ok so the idea is that you first take files from command line, and from the first line,
-# figure out if they're Fugitive, and in what game.
-# 
-# Then you have a dictionary of games, and in each game in this dict, verify that there's exactly one 
-# Fugitive
-# 
-# Then, you can read the files line by line
-# 
-#  view[i][j][k] is the square ID i thinks ID k is as per feedback of Move j
-
-# dict of game, view
 
 """
 For each game, associate the files which are traces of clients playing that game
